@@ -6,3 +6,5 @@ As relações de trabalho passaram por transformações ao longo do tempo. Hoje 
 O objetivo é fazer um levantamento quanto a faixa etária, região do país, se os participantes da pesquisa ainda atuam na antiga área ou já estão dedicados 100% a nova carreira.
 
 O formulário foi elaborado utilizando o HTML e CSS.
+
+  <p>Créditos: <a href="https://github.com/rafaballerini">Rafaella Ballerini</a></p>
