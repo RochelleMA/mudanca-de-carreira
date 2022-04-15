@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="Formulário.css" media="screen">
+
+        <!-- Título (aparece na aba) -->
+        <title>Pesquisa</title>
+    </head>
+
+    <body>  
+
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Mudança de Carreira
+            <p id="subtitulo">Complete com as suas informações</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+             
+            <!-- Campo de idade com-->
+            <div class="campo">
+                <label for="idade"><strong>Idade</strong></label>
+                <input type="text" name="idade" id="idade" required>
+            </div>
+
+            <div class="campo">
+                <label for="estado"><strong>Estado</strong></label>
+                <input type="text" name="estado" id="estado" required>
+            </div>
+
+            <!-- Campo de sexo com 2 opções (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Sexo</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend">Masculino
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Feminino
+                </label>
+                <label>
+            </div>
+        </fieldset>
+            
+        <!-- Campo profissão -->
+            <div class="campo">
+                <label for="area"><strong>Qual sua antiga Profissão?</strong></label>
+                <input type="text" name="area" id="area" required>
+            </div>
+
+            <div class="campo">
+                <label for="trabalho"><strong>Trabalha em sua antiga área?</strong></label>
+                <select id="trabalho" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Sim</option>
+                  <option>Não</option>
+                </select>
+            </div>
+            
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>O que lhe motivou a ir para área de tecnologia? </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+        </form>
+
+    </body>
+
+</html>
